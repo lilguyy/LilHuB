@@ -36,9 +36,7 @@ local Tab = Window:Tab({Title = "Main", Icon = "star"}) do
         Value = false,
         Callback = function(v)
             game.Players.LocalPlayer.Character:SetAttribute("CanJump", true)
-            if false then
-            game.Players.LocalPlayer.Character:SetAttribute("CanJump", false)
-        end
+     end
     })
 
     -- Button
