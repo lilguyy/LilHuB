@@ -35,7 +35,9 @@ local Tab = Window:Tab({Title = "Main", Icon = "star"}) do
         Desc = "Toggle to enable Jumping",
         Value = false,
         Callback = function(v)
-            print("Toggle:", v)
+            game.Players.LocalPlayer.Character:SetAttribute("CanJump", true)
+            if false
+            game.Players.LocalPlayer.Character:SetAttribute("CanJump", false)
         end
     })
 
